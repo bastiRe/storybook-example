@@ -8,28 +8,8 @@ function loadStories() {
 
 configure(loadStories, module);
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//// setup vue info addon
-// import { withInfo, setDefaults } from "storybook-addon-vue-info";
-// import { addDecorator } from "@storybook/vue";
+// setup vue info addon
+import { withInfo, setDefaults } from "storybook-addon-vue-info";
+import { addDecorator } from "@storybook/vue";
 
-// addDecorator(withInfo);
+addDecorator(withInfo);
